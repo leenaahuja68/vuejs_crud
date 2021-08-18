@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 18, 2021 at 11:30 AM
+-- Generation Time: Aug 18, 2021 at 11:41 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -41,10 +41,9 @@ CREATE TABLE `data` (
 --
 
 INSERT INTO `data` (`id`, `name`, `age`, `profession`, `created_at`, `updated_at`) VALUES
-(70, 'muskan', 212, 'operator', NULL, NULL),
-(73, 'cc', 23, 'dd', NULL, NULL),
-(75, 'test', 23, 'developer', NULL, NULL),
-(76, 'ded', 9, 'fefef', NULL, NULL);
+(1, 'Leena Ahuja', 23, 'Web Developer', NULL, NULL),
+(2, 'Mansi', 22, 'Police', NULL, NULL),
+(3, 'Muskan', 21, 'Computer Operator', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -157,7 +156,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `data`
 --
 ALTER TABLE `data`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=80;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
